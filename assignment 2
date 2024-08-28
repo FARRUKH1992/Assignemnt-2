@@ -1,0 +1,27 @@
+number = input("Enter a number: ")
+
+if number > 0:
+    print("The number is positive.")
+elif number = 0:
+    print("The number is zero.")
+else number < 0:
+    print("The number is negative.")
+
+    # Seems input func returns a str must be changed to int
+    # Assignment operator '=' vs comparison operator '==' elif uses '==' to compare not '='
+    # Incorrect syntax no condition after statement missin : after else
+
+
+
+
+
+
+
+number = int(input("Enter a number: "))  # Convert input to an integer
+
+if number > 0:
+    print("The number is positive.")
+elif number == 0:  # Use comparison operator for equality
+    print("The number is zero.")
+else:  # No condition needed for else
+    print("The number is negative.")
